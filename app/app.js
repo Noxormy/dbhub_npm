@@ -4,7 +4,7 @@ const request = axios.create({
 });
 
 
-const getDatabase = (apikey) => {
+module.exports.getDatabase = (apikey) => {
     return new DbHub(apikey)
 };
 
