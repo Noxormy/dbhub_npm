@@ -8,7 +8,7 @@ Using npm
 
 After that include packet in your code:  
 
-    const dbhub = require('dbhub');
+    const {getDatabase}  = require('dbhub');
 
 Create your database:  
 
