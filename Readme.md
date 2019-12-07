@@ -1,13 +1,14 @@
 ##Installing
 Using npm  
-`$ npm install dbhub`
+
+    $ npm install dbhub
 
 ##Usage
 **Get your api key for the database on *website***    
 
 After that include packet in your code:  
 
-    import {getDatabase} from 'dbhub'
+    const dbhub = require('dbhub');
 
 Create your database:  
 
